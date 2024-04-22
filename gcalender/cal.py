@@ -92,6 +92,7 @@ def run(summary, start_time, end_time, description = "Automated by ..."):
 
   except HttpError as error:
     print(f"An error occurred: {error}")
+  return event_result['id']
 
   
 
